@@ -4,6 +4,9 @@ export interface ILightBoxProps {
     mainSrc: string;
     nextSrc?: string;
     prevSrc?: string;
+    mainCustomContent?: any;
+    prevCustomContent?: any;
+    nextCustomContent?: any;
     mainSrcThumbnail?: string;
     prevSrcThumbnail?: string;
     nextSrcThumbnail?: string;
